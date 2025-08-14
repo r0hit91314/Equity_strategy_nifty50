@@ -1,0 +1,1 @@
+# Equity_strategy_nifty50
