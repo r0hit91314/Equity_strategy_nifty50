@@ -28,9 +28,7 @@ Refer to Strategy Building Documentation.pdf for a detailed explanation of metho
 
 - Strategy design is an iterative process of hypothesis, testing, rejection, and refinement.
 
-- Market constraints (like no overnight shorts in India) significantly influence implementable strategies.
-
-- Survivorship bias, costs, and execution assumptions must be corrected for realistic performance.
+- Market constraints (like no overnight shorts in India) , Survivorship bias, costs, and execution assumptions must be corrected for realistic performance.
 
 - Market regime filtering greatly improves consistency.
 
