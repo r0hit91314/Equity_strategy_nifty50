@@ -24,12 +24,11 @@ Initial_long_only_strategy.ipynb → Long-only strategy backtests. <br>
 Final_pivoted_strategy.ipynb → Incorporates regime filters for improved robustness. <br>
 Refer to Strategy Building Documentation.pdf for a detailed explanation of methodology, pivots, and results. <br>
 
-## 📌 Key Learnings
+## 📌 Key Learnings  
 
-- Strategy design is an iterative process of hypothesis, testing, rejection, and refinement.
-
-- Market constraints (like no overnight shorts in India) , Survivorship bias, costs, and execution assumptions must be corrected for realistic performance.
-
-- Market regime filtering greatly improves consistency.
-
+- **Trial and Error Matters:** Strategies don’t work perfectly at first. Testing, rejecting, and improving ideas step by step made the system stronger.  
+- **Be Realistic:** Backtests look good only if you account for real issues like costs, slippage, and survivorship bias.  
+- **Work with Market Rules:** Since overnight shorts aren’t allowed in India, the strategy had to pivot to long-only. Designing within rules is key.  
+- **Filter the Noise:** Using market regime filters helped avoid bad trades in sideways or down markets and improved consistency.  
+- **Keep it Balanced:** Too many rules kill returns, while balanced approaches gave steady and reliable performance.  
 
