@@ -6,8 +6,8 @@ The work is documented through Jupyter notebooks and a detailed strategy-buildin
 
 ## 📂 Repository Structure
 
-├── Market_regime_2.ipynb           # Jupyter Notebook for market regime strategy <br>
-├── QI_STRAT_Long_Final_2.ipynb     # Jupyter Notebook for long-only strategy <br>
+├── Final_pivoted_strategy.ipynb           # Jupyter Notebook for market regime strategy <br>
+├── Initial_long_only_strategy.ipynb     # Jupyter Notebook for long-only strategy <br>
 ├── Strategy Building Documentation.pdf  # Full methodology & analysis <br>
 ├── requirements.txt                # Python dependencies <br>
 
@@ -20,8 +20,8 @@ pip install -r requirements.txt <br>
 ## ▶️ Usage
 
 Run the notebooks in sequence: <br>
-QI_STRAT_Long_Final_2.ipynb → Long-only strategy backtests. <br>
-Market_regime_2.ipynb → Incorporates regime filters for improved robustness. <br>
+Initial_long_only_strategy.ipynb → Long-only strategy backtests. <br>
+Final_pivoted_strategy.ipynb → Incorporates regime filters for improved robustness. <br>
 Refer to Strategy Building Documentation.pdf for a detailed explanation of methodology, pivots, and results. <br>
 
 ## 📌 Key Learnings
